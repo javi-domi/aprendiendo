@@ -35,3 +35,9 @@ h1 {
   float: right;
   margin-top: 20px;
 }
+.container {
+  height: auto;
+  width: 800px;
+  overflow: hidden;
+  display: inline-block;
+}

@@ -3,6 +3,7 @@
     <head>
         <title>Mcdonald's</title>
         <link rel="stylesheet" type="text/css" href="./public/css/styles.css">
+        <script src="script.js"></script>
     </head>
     
     <body>
@@ -17,10 +18,12 @@
             </div>
         </ul>
     <!--Slideshow-->
-    <main>
-            <img src="Assets/happymeal.jpg" alt="Happy Meal">
-            <img src="Assets/mcburrito.jpg" alt="Mcburrito">
-            <img src="Assets/mcflurry.jpg" alt="Mcflurry">
+    <main class="container">
+            <img class="slide" src="Assets/happymeal.jpg" alt="Happy Meal">
+            <img class="slide"  src="Assets/mcburrito.jpg" alt="Mcburrito">
+            <img class="slide"  src="Assets/mcflurry.jpg" alt="Mcflurry">
+            <button class="left" onclick="plusDiv(-1)">&#10094;</button>
+            <button class="left" onclick="plusDiv(+1)">&#10095;</button>
     </main>
     <!--Promotions-->
     <section>
